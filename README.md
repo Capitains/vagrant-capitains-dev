@@ -43,7 +43,7 @@ On the VM:
 /vagrant/run-all.sh
 ```
 
-If all works, you should be able to access Nemo in your browser at http://localhost:8100 with the contents of canonical-latinLit and canonical-greekLit repositories loaded.
+If all works, you should be able to access Nemo in your browser at [http://localhost:8100](http://localhost:8100) with the contents of canonical-latinLit and canonical-greekLit repositories loaded. It may take a few minutes for the full repo to load.
 
 When you are done using the VM, it's a good idea to shut it down cleanly.
 
