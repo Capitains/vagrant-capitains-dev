@@ -45,6 +45,22 @@ On the VM:
 
 If all works, you should be able to access Nemo in your browser at http://localhost:8100 with the contents of canonical-latinLit and canonical-greekLit repositories loaded.
 
+When you are done using the VM, it's a good idea to shut it down cleanly.
+
+On the host sytem:
+
+```
+vagrant halt
+```
+
+And if you are really done, go ahead and remove it from your system:
+
+On the host sytem:
+
+```
+vagrant destroy
+```
+
 ## Troubleshooting
 
 
