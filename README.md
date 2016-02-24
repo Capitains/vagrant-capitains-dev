@@ -10,7 +10,7 @@
 ## Installation:
 
 ```
-git clone https://github.com/PerseusDL/vagrant-capitains-dev
+git clone https://github.com/Capitains/vagrant-capitains-dev
 ```
 
 You will need to edit a few things in the Vagrant file for your environment:
