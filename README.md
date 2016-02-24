@@ -1,4 +1,4 @@
-# Vagrant Capitains Development Environment
+# Vagrant CapiTainS Development Environment
 
 ## Prerequisites:
 
