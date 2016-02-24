@@ -17,14 +17,14 @@ You will need to edit a few things in the Vagrant file for your environment:
 
 1. Set path to your local clone of the PerseusDL canonical repos. These are the lines that need to be changed:
 
-```
-  config.vm.synced_folder "/home/user/workspace/canonical-latinLit", "/vagrant_data/latinLit"
-  config.vm.synced_folder "/home/user/workspace/canonical-greekLit", "/vagrant_data/greekLit"
-```
+    ```
+    config.vm.synced_folder "/home/user/workspace/canonical-latinLit", "/vagrant_data/latinLit"
+    config.vm.synced_folder "/home/user/workspace/canonical-greekLit", "/vagrant_data/greekLit"
+    ```
 
-Replace `/home/user/workspace/canonical-greekLit` to the path to your local clone of the canonical-greekLit repo.
+    Replace `/home/user/workspace/canonical-greekLit` to the path to your local clone of the canonical-greekLit repo.
 
-Replace `/home/user/workspace/canonical-latinLit` to the path to your local clone of the canonical-latinLit repo.
+    Replace `/home/user/workspace/canonical-latinLit` to the path to your local clone of the canonical-latinLit repo.
 
 2. You may also need to change local port mappings and network card settings. Instructions are provided in the Vagrantfile
 
