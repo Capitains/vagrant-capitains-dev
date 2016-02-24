@@ -37,6 +37,8 @@ vagrant up
 vagrant ssh
 ```
 
+The vagrant ssh command will put you into the guest VM.
+
 On the VM:
 
 ```
@@ -44,6 +46,18 @@ On the VM:
 ```
 
 If all works, you should be able to access Nemo in your browser at [http://localhost:8100](http://localhost:8100) with the contents of canonical-latinLit and canonical-greekLit repositories loaded. It may take a few minutes for the full repo to load.
+
+When you are done testing, leave the guest VM:
+
+```
+exit
+```
+
+You can return to it at any time by typing
+
+```
+vagrant ssh
+```
 
 When you are done using the VM, it's a good idea to shut it down cleanly.
 
@@ -63,6 +77,27 @@ vagrant destroy
 
 ## Troubleshooting
 
+### Logs
+
+Logs can be found on the guest machine at
+
+```
+/home/vagrant/flask-capitains-nemo/nemo.log
+/home/vagrant/Nautilus/nautilus.log
+```
+
+These contain the console ouput from the Nemo and Nautilus and are the first place to check if the application is not repsonding.
+
+If you want to watch them while you are using the app you can do the following
+
+```
+tail -f /home/vagrant/flask-capitains-nemo/nemo.log
+```
+
+or 
+```
+tail -f /home/vagrant/Nautilus/nautilus.log
+```
 
 ## Customizations
 
