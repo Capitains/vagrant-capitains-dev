@@ -4,7 +4,8 @@
 
 * [Vagrant](https://www.vagrantup.com/downloads.html)
 * [Virtual Box](https://www.virtualbox.org/wiki/Downloads)
-* an ssh client (on Windows you can try [Putty](https://www.vagrantup.com/docs/getting-started/)
+* an ssh client 
+    * comes with OS/X and Linux. On Windows you can try [Putty](https://www.vagrantup.com/docs/getting-started/))
 
 
 ## Installation:
