@@ -26,6 +26,9 @@ You will need to edit a few things in the Vagrant file for your environment:
 
     Replace `/home/user/workspace/canonical-latinLit` to the path to your local clone of the canonical-latinLit repo.
 
+   (It can be used with other Capitains-compliant repositories too, the run script is just setup for these for
+    convenience)
+    
 2. You may also need to change local port mappings and network card settings. Instructions are provided in the Vagrantfile
 
 ## Run the Apps
