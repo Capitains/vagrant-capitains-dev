@@ -80,6 +80,11 @@ vagrant destroy
 
 ## Troubleshooting
 
+### Trouble getting Vagrant and Virtual box to work
+
+[enabling virtualization on Lenovo laptops](http://amiduos.com/support/knowledge-base/article/enabling-virtualization-in-lenovo-systems)
+
+
 ### Logs
 
 Logs can be found on the guest machine at
