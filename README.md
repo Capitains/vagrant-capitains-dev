@@ -13,9 +13,24 @@
 git clone https://github.com/Capitains/vagrant-capitains-dev
 ```
 
-You will need to edit a few things in the Vagrant file for your environment:
+1. Open the Vagrant file in the cloned copy of the vagrant-capitains-dev repository.  The following are example command-line instructions, but you can also navigate there in your File Explorer/Finder and use whatever text editor you are comfortable with.
 
-1. Set path to your local clone of the PerseusDL canonical repos. These are the lines that need to be changed:
+On OS/X or Linux:
+
+```
+cd vagrant-capitains-dev
+vi Vagrantfile
+```
+
+On Windows
+
+```
+cd c:\\Users\My Documents\JohnSmith\vagrant-capitains-dev
+notepad Vagrantfile
+```
+
+
+2. In the text editor with the Vagrant file open, s et path to your local clone of the PerseusDL canonical repos. These are the lines in the Vagrantfile that need to be changed:
 
     ```
     config.vm.synced_folder "/home/user/workspace/canonical-latinLit", "/vagrant_data/latinLit"
@@ -33,7 +48,7 @@ You will need to edit a few things in the Vagrant file for your environment:
 
 ## Run the Apps
 
-On the host machine:
+On the host machine __from within the local cloned copy of the vagrant-capitains-dev repository__:
 
 ```
 vagrant up
