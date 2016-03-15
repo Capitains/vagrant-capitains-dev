@@ -6,6 +6,10 @@
 * [Virtual Box](https://www.virtualbox.org/wiki/Downloads)
 * an ssh client 
     * comes with OS/X and Linux. On Windows you can try [Putty](https://www.vagrantup.com/docs/getting-started/)
+* a local repository containing texts adhering to the [CapiTaiNs guidelines for CTS](http://capitains.github.io/pages/guidelines.html)
+    * The applications work with any CapiTaiNs compliant repo, but the default configuration assumes that you have the PerseusDL Canonical greekLit and latinLit GitHub repositories cloned locally from:
+        * https://github.com/PerseusDL/canonical-greekLit
+        * https://github.com/PerseusDL/canonical-greekLit
 
 ## Installation:
 
@@ -124,3 +128,4 @@ tail -f /home/vagrant/Nautilus/nautilus.log
 
 ## Customizations
 
+TODO
